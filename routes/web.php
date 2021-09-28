@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,7 @@ Route::get('/', function () {
 Route::get("/skills", function () {
     return ['laravel', "php", "vue", "javaScript", "Blade"];
 });
+
+
+Route::get('/project/create', [ProjectController::class, 'create']);
+Route::post('/project', [ProjectController::class, 'store'])->name('projectStore');

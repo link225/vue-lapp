@@ -7,10 +7,10 @@
         <title>Lapp Vue</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        {{--  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">  --}}
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="/css/bulma.min.css">
+        <link rel="stylesheet" href="/css/app.css">
 
         <style>
             body {
@@ -47,7 +47,7 @@
         </div>
     </body>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/vue2.js"></script>
+    <script src="/js/axios.min.js"></script>
     <script src="js/app.js"></script>
 </html>
